@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Denis Novik</title>
+   <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <nav class="nav">
+            <ul class="menu-list">
+               <li class="menu-item">
+                  <a href="#" class="menu-link menu-link-main">Home</a>
+               </li>
+               <li class="menu-item">
+                  <a href="#aboutme" class="menu-link">About me</a>
+               </li>
+               <li class="menu-item">
+                  <a href="#skills" class="menu-link">Skills</a>
+               </li>
+               <li class="menu-item">
+                  <a href="#portfolio" class="menu-link">Portfolio</a>
+               </li>
+               <li class="menu-item">
+                  <a href="#contacts" class="menu-link">Contacts</a>
+               </li>
+            </ul>
+            <div class="menu-btn">
+               <span></span>
+               <span></span>
+               <span></span>
+               <img class="menu-btn-close-icon" src="images/close-icon.svg" alt="CLOSE">
+            </div>
+            <ul class="menu-mobile">
+               <li class="menu-item">
+                  <a href="#" class="menu-link menu-link-main">Home</a>
+               </li>
+               <li class="menu-item">
+                  <a href="#aboutme" class="menu-link">About me</a>
+               </li>
+               <li class="menu-item">
+                  <a href="#skills" class="menu-link">Skills</a>
+               </li>
+               <li class="menu-item">
+                  <a href="#portfolio" class="menu-link">Portfolio</a>
+               </li>
+               <li class="menu-item">
+                  <a href="#contacts" class="menu-link">Contacts</a>
+               </li>
+               <p class="lang">
+                  <span class="lang-ru">RU</span> | <span class="lang-eng">ENG</span>
+               </p>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main class="main">
+      <section class="info">
+         <div class="container">
+            <div class="info__inner">
+               <h1 class="info-item name">
+                  Denis<br>
+                  Novik
+               </h1>
+               <p class="info-item info">
+                  UX | UI designer<br>
+                  24 years old, Minsk
+               </p>
+               <p class="lang">
+                  <span class="lang-ru">RU</span> | <span class="lang-eng">ENG</span>
+               </p>
+            </div>
+            <div class="info__inner-mobile">
+               <h1 class="info-item name">
+                  Denis<br>
+                  Novik
+               </h1>
+               <p class="info-item info">
+                  UX | UI designer<br>
+                  24 years old, Minsk
+               </p>
+            </div>
+            <div class="promo-carousel-container">
+               <div class="promo-carousel-images-wrapper">
+                  <img class="promo-image" src="images/promo-1.jpg">
+                  <img class="promo-image" src="images/promo-2.jpg">
+                  <img class="promo-image" src="images/promo-3.jpg">
+                  <img class="promo-image" src="images/promo-4.jpg">
+                  <img class="promo-image" src="images/promo-5.jpg">
+                  <img class="promo-image" src="images/promo-6.jpg">
+               </div>
+               <div class="promo-carousel-buttons-wrapper">
+                  <button class="promo-carousel-button active" type="button" onclick="changeImage(0)">
+                  </button>
+                  <button class="promo-carousel-button" type="button" onclick="changeImage(1)">
+                  </button>
+                  <button class="promo-carousel-button" type="button" onclick="changeImage(2)">
+                  </button>
+                  <button class="promo-carousel-button" type="button" onclick="changeImage(3)">
+                  </button>
+                  <button class="promo-carousel-button" type="button" onclick="changeImage(4)">
+                  </button>
+                  <button class="promo-carousel-button" type="button" onclick="changeImage(5)">
+                  </button>
+               </div>
+            </div>
+            <div class="promo-mobile">
+               <img src="images/promo-1-mobile.jpg" alt="promo mobile image" class="promo-mobile-image">
+            </div>
+         </div>
+      </section>
+      <section class="aboutme" id="aboutme">
+         <div class="container">
+            <div class="aboutme__inner">
+               <h2 class="section-heading">About me</h2>
+               <p class="aboutme-text-one">
+                  Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                  I'm interested in design and everything connected with it.
+               </p>
+               <p class="aboutme-text-two">
+                  I'm studying at courses "Web and mobile design <br>
+                  interfaces" in IT-Academy.
+               </p>
+               <p class="aboutme-text-three">
+                  Ready to implement excellent projects <br>
+                  with wonderful people.
+               </p>
+            </div>
+         </div>
+      </section>
+      <section class="skills" id="skills">
+         <div class="container">
+            <div class="skills__inner">
+               <h2 class="section-heading">Skills</h2>
+               <p class="skills-text">
+                  I work in such programs as
+               </p>
+               <div class="apps-wrapper">
+                  <div class="app">
+                     <img src="images/PS.svg" alt="PS icon" class="PS-icon">
+                     <p class="app-name">
+                        Adobe <br>
+                        Photoshop
+                     </p>
+                     <div class="app-rating">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-empty.svg" alt="-" class="star-empty">
+                     </div>
+                  </div>
+      
+                  <div class="app">
+                     <img src="images/AI.svg" alt="AI icon" class="AI-icon">
+                     <p class="app-name">
+                        Adobe <br>
+                        Illustrator
+                     </p>
+                     <div class="app-rating">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-empty.svg" alt="-" class="star-empty">
+                        <img src="images/star-empty.svg" alt="-" class="star-empty">
+                     </div>
+                  </div>
+      
+                  <div class="app">
+                     <img src="images/AE.svg" alt="AE icon" class="AE-icon">
+                     <p class="app-name">
+                        Adobe <br>
+                        After Effects
+                     </p>
+                     <div class="app-rating">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-empty.svg" alt="-" class="star-empty">
+                     </div>
+                  </div>
+      
+                  <div class="app">
+                     <img src="images/Figma.svg" alt="Figma icon" class="Figma-icon">
+                     <p class="app-name">
+                        Figma
+                     </p>
+                     <div class="app-rating">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-filled.svg" alt="0" class="star-filled">
+                        <img src="images/star-empty.svg" alt="-" class="star-empty">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+         <h2 class="section-heading">Portfolio</h2>
+         <div class="portfolio__inner">
+            <div class="first-example">
+               <img src="images/exapmle_levis.jpg" alt="exapmle_levis.jpg" class="example-image">
+               <p>
+                  <a href="#this" class="example-link">Online fashion store - Homepage</a>
+               </p>
+            </div>
+            <div class="second-example">
+               <img src="images/example_reebok_web.jpg" alt="exapmle_reebok_web.jpg" class="example-image">
+               <p>
+                  <a href="#this" class="example-link">Reebok Store - Concept</a>
+               </p>
+            </div>
+            <div class="third-example">
+               <img src="images/example_braun.jpg" alt="example_braun.jpg" class="example-image">
+               <p>
+                  <a href="#this" class="example-link">Braun - Landing page</a>
+               </p>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer class="contacts" id="contacts">
+      <div class="container">
+         <div class="contacts__inner">
+            <h2 class="section-heading">Contacts</h2>
+            <p class="send-message-text">
+               Want to know more or just chat? <br>
+               You are welcome!
+            </p>
+            <button class="send-message-button">
+               Send message
+            </button>
+            <div class="footer-links">
+               <a href="#this" class="footer-link">
+                  <img src="images/linkedin.svg" alt="">
+               </a>
+               <a href="#this" class="footer-link">
+                  <img src="images/inst.svg" alt="">
+               </a>
+               <a href="#this" class="footer-link">
+                  <img src="images/behance.svg" alt="">
+               </a>
+               <a href="#this" class="footer-link">
+                  <img src="images/dribble.svg" alt="">
+               </a>
+            </div>
+            <p class="footer-text">
+               Like me on <br>
+               LinkedIn, Instagram, Behance, Dribble
+            </p>
+         </div>
+      </div>
+   </footer>
+   <script src="scripts/script.js"></script>
+</body>
+
+</html>
